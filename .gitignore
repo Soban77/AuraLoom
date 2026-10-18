@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+backend/dist/
+.vite/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Generated submission documents and scripts
+*.py
+*.docx
+__pycache__/
+*.py[cod]
+
+# Editor-specific folders
+.idea/
+
+# Test / coverage output
+coverage/
